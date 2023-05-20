@@ -248,7 +248,7 @@ a.trailer-link:hover{
     width: 80%;
 }
 .first-img-content{
-    background-image: url('/images/onHorse-overview.jpg');
+    background-image: url('../images/onHorse-overview.jpg');
     background-position: 25%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -257,7 +257,7 @@ a.trailer-link:hover{
     overflow: hidden;
 }
 .second-img-content{
-    background-image: url('/images/killing-someone.jpg');
+    background-image: url('../images/killing-someone.jpg');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -266,7 +266,7 @@ a.trailer-link:hover{
     overflow: hidden;
 }
 .third-img-content{
-    background-image: url('/images/overview.jpg');
+    background-image: url('../images/overview.jpg');
     background-position: 30%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -275,7 +275,7 @@ a.trailer-link:hover{
     overflow: hidden;
 }
 .fourth-img-content{
-    background-image: url('/images/fighting.jpg');
+    background-image: url('../images/fighting.jpg');
     background-position: 70%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -306,7 +306,7 @@ a.trailer-link:hover{
 
 /* character part */
 #characters{
-    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 100%), url('/images/1119210-1500.png');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 100%), url('../images/1119210-1500.png');
     background-position: 40%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -413,31 +413,31 @@ span.text-gold{
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
 }
 #first-carousel-img{
-    background-image: url('/images/socrates.jpg');
+    background-image: url('../images/socrates.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #second-carousel-img{
-    background-image: url('/images/barnabas.jpg');
+    background-image: url('../images/barnabas.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #third-carousel-img{
-    background-image: url('/images/herodotos.webp');
+    background-image: url('../images/herodotos.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #fourth-carousel-img{
-    background-image: url('/images/perikles.jpg');
+    background-image: url('../images/perikles.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #fifty-carousel-img{
-    background-image: url('/images/alcibiades.jpg');
+    background-image: url('../images/alcibiades.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -451,7 +451,7 @@ span.text-gold{
 
 #system{
     position: relative;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 100%), url('/images/onHorse.jpg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 100%), url('../images/onHorse.jpg');
     background-position: 70%;
     background-size: cover;
     background-repeat: no-repeat;
