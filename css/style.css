@@ -14,7 +14,7 @@ body{
     overflow-x: hidden;
 }
 #introduction{
-    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 100%), url("..//images/main.jpg");
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 100%), url("../images/main.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
