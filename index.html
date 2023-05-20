@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assassin's Creed Odyssey</title>
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- my CDNs -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- media queries -->
+    <link rel="stylesheet" media="(min-width: 880px)" href="css/mediaQueries.css" >
+    <script src="js/script.js" defer></script>
+</head>
+<body>  
+    <div id="introduction">
+        <nav>
+            <div class="nav-format">
+                <input type="checkbox" id="menu-hamburguer">
+                <label for="menu-hamburguer" class="hamburguer-label">
+                    <div class="hamburguer"></div>
+                </label>
+                <div id="nav-options">
+                    <ul>
+                        <li><a href="#main" class="nav-opt">MAIN</a></li>
+                        <li><a href="#characters" class="nav-opt">HISTORICAL CHARACTERS</a></li>
+                        <li><a href="#system" class="nav-opt">SYSTEM REQUIREMENTS</a></li>
+                        <li><a href="#newsletter" class="nav-opt">SUBSCRIBE</a></li>
+                    </ul>
+                    <div class="slash"></div>
+                    <div class="plataforms">
+                        <i class="bi bi-playstation"></i>
+                        <i class="bi bi-xbox"></i>
+                        <i class="bi bi-windows"></i>
+                    </div>
+                </div>
+            </div>
+            <img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7uOBEhFtiweE77PCVhJv7v/0c8db3752879246cd9ee98fe3ff18e97/Helix_ACD_Logo_Textured_ACD_White.png" alt="" class="logo-img">
+        </nav>
+        <div class="trailer-btn">
+            <a href="https://youtu.be/ROVho-9AdV4" target="_blank" class="trailer-link"><span>WATCH TRAILER</span></a>
+        </div>
+    </div>
+    <div class="bck-black"></div>
+    <div id="main">
+        <div class="first-img-content items-main"></div>
+        <div class="text-content items-main">
+            <h2 class="right-scroll-animation">CHOOSE YOUR WAY</h2>
+            <p class="left-scroll-animation">
+                There are almost endless ways to explore Greece. 
+                Choose from main quests, story-driven side quests 
+                and more as you seek to unearth the mysteries and 
+                secrets of this hallowed ground. Your decisions 
+                shape the world around you with over 30 hours of 
+                choice dialogue and multiple game endings. 
+                Experience an entire ancient world that constantly 
+                evolves and reacts to your every decision.
+            </p>
+        </div>
+        <div class="second-img-content items-main"></div>
+        <div class="text-content items-main">
+            <h2 class="right-scroll-animation">BECOME A SPARTAN HERO</h2>
+            <p class="left-scroll-animation">
+                Embark on an epic journey that will
+                take you from your humble beginnings
+                as a Spartan mercenary to a legendary
+                Greek hero and discover the truth about
+                your mysterious past as Alexios or Cassandra.
+                Sail to the far reaches of the Aegean Sea,
+                forming alliances and making enemies. Along
+                the way, you'll meet historical figures,
+                mystical characters, and a whole cast of others
+                who will impact your journey.
+            </p>
+        </div>
+        <div class="third-img-content items-main"></div>
+        <div class="text-content items-main">
+            <h2 class="left-scroll-animation" >ANCIENT GREECE AWAITS</h2>
+            <p class="right-scroll-animation">
+                Explore an entire country full of wild
+                environments and cities at the height of
+                Greece's Golden Age. Visit Sparta and see
+                Athens in all its glory, walk in the footsteps
+                of legends like Ulysses and Hercules and discover
+                the secrets of Greece. Unexpected encounters will
+                bring your story to life as you encounter 
+                multifaceted characters, fight formidable enemies,
+                and much more.
+            </p>
+        </div>
+        <div class="fourth-img-content items-main"></div>
+        <div class="text-content items-main ">
+            <h2 class="left-scroll-animation">THE ART OF BATTLE</h2>
+            <p class="right-scroll-animation">
+                Show off your extraordinary warrior skills and change 
+                the tides of battle during one of the deadliest 
+                conflicts of the era, the Peloponnesian War. Engage 
+                in epic clashes between Sparta and Athens in massive 
+                battles with 150x150 soldiers battling each other.
+            </p>
+        </div>
+    </div>
+    <div  id="characters">
+        <div class="title-elements">
+            <span>explore the past</span>
+            <h1>influential figures of ancient greece</h1>
+        </div>
+        <div class="carousel-container ">
+            <div class="carousel-text-block">
+                <h2 id="carousel-title-text" >
+                    <span class="white-underline"></span>
+                </h2>
+            </div>
+            <div class="carousel right-scroll-animation">
+                <div class="previous-button controls" type="button">
+                    <i class="bi bi-caret-left hover-golden "></i>
+                </div>
+                <div class="next-button controls" type="button">
+                    <i class="bi bi-caret-right hover-golden "></i>
+                </div>
+                <div class="gallery">
+                    <div class="items invisible-carousel-img"></div>
+                    <div class="items current-item" id="first-carousel-img"></div>
+                    <div class="items" id="second-carousel-img"></div>
+                    <div class="items" id="third-carousel-img"></div>
+                    <div class="items" id="fourth-carousel-img"></div>
+                    <div class="items" id="fifty-carousel-img"></div>
+                    <div class="items invisible-carousel-img"></div>
+                </div>
+            </div>
+            <div class="carousel-text-block">
+                <p id="carousel-subtitle-text" class="left-scroll-animation"></p>
+            </div>
+        </div>
+    </div>
+    <div class="bck-black"></div>
+    <div id="system">
+        <div class="title-elements">
+            <span>can my computer run this game?</span>
+            <h1>system requirements</h1>
+        </div>
+        <div class="system-requeriments">
+            <div class="first-row">
+                <h3 class="left-scroll-animation">OS:</h3>
+                <p class="left-scroll-animation">Windows 7 64-bits only(No OSX support at this time)</p>
+            </div>
+            <div class="first-row">
+                <h3 class="right-scroll-animation">PROCESSOR:</h3>
+                <p class="right-scroll-animation">Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ</p>
+            </div>
+            <div class="second-row">
+                <h3 class="left-scroll-animation">MEMORY:</h3>
+                <p class="left-scroll-animation">8GB RAM</p>
+            </div>
+            <div class="second-row">
+                <h3 class="right-scroll-animation">STORAGE:</h3>
+                <p class="right-scroll-animation">8GB avaible space</p>
+            </div>
+            <div class="last-row">
+                <h3 class="left-scroll-animation">GRAPHICS:</h3>
+                <p class="right-scroll-animation">NVIDIA GeForce GTX 660 2GB or AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</p>
+            </div>
+        </div>
+    </div>
+    <div id="newsletter">
+        <div class="newsletter-content">
+            <div class="title-elements">
+                <span>want to stay in touch?</span>
+                <h1>newsletter subscribe</h1>
+            </div>
+            <p>In order to start receiving our news, all you have to do is enter your emal address. Everything else will be taken care of by us. We will send you emails containing infomation about game. We don't spam.</p>
+
+            <div class="newsletter-input-block">
+                <input type="email" id="newsletter-input" placeholder="Your email address">
+                <button type="submit" class="newsletter-btn" disabled><span>Subscribe now</span></button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <!-- <img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7uOBEhFtiweE77PCVhJv7v/0c8db3752879246cd9ee98fe3ff18e97/Helix_ACD_Logo_Textured_ACD_White.png" alt="" class="logo-img"> -->
+        <div class="plataforms">
+            <i class="bi bi-playstation"></i>
+            <i class="bi bi-xbox"></i>
+            <i class="bi bi-windows"></i>
+        </div>
+    </footer>
+    
+</body>
+</html>
