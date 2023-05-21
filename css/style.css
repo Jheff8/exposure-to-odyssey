@@ -1,6 +1,6 @@
 @font-face {
     font-family: ancient-greece;
-    src: url('fonts/dalek/Dalek.ttf');
+    src: url('../fonts/dalek/Dalek.ttf');
 }
 *{
     margin: 0;
