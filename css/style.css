@@ -237,8 +237,11 @@ a.trailer-link:hover{
     display: grid;
 }
 .text-content{
-    display:grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
     text-align: center;
     width: 100vw;
     height: 70vh;   
@@ -374,7 +377,7 @@ a.trailer-link:hover{
     margin: auto;
     padding-bottom: 1em;
     line-height: 1em;
-    
+
 }
 #carousel-subtitle-text{
     text-align: justify;
