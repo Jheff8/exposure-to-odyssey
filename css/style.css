@@ -239,10 +239,16 @@ a.trailer-link:hover{
 .text-content{
     display:grid;
     place-items: center;
+    text-align: center;
     width: 100vw;
     height: 70vh;   
     background-color: white;
     overflow: hidden;
+}
+.text-content h2{
+    color: #665412 !important;
+    font-size: 25px;
+    font-family: ancient-greece;
 }
 .text-content p{
     width: 80%;
@@ -369,13 +375,6 @@ a.trailer-link:hover{
     padding-bottom: 1em;
     line-height: 1em;
     
-}
-.white-underline{
-    position: absolute;
-    width: 200px;
-    height: .5px;
-    opacity: 0;
-    background-color: white;
 }
 #carousel-subtitle-text{
     text-align: justify;
