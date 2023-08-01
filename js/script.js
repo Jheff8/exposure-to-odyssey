@@ -2,7 +2,6 @@
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if(entry.isIntersecting) {
-            console.log(entry.isIntersecting)
             entry.target.classList.add('normal')
         } else {
             entry.target.classList.remove('normal')
@@ -25,7 +24,6 @@ const maxItems = items.length
 
 let carouselTitle = document.querySelector('#carousel-title-text')
 let caroutelSubtitle = document.querySelector('#carousel-subtitle-text')
-const titleUnderline = document.querySelector('span.white-underline')
 
 
 const textList = [
@@ -41,8 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
     carrosselContainer.scrollLeft = items[currentItem].offsetLeft - (carrosselContainer.offsetWidth / 2) + (items[currentItem].offsetWidth / 2)
     // troca o texto de acordo com o elemento atual do carrosel
     carouselTitle.innerHTML = textList[currentItem - 1].h2
-    titleUnderline.style.width = `${carouselTitle.offsetWidth}px`
-    carouselTitle.innerHTML = titleUnderline.outerHTML + textList[currentItem - 1].h2
     caroutelSubtitle.innerHTML = textList[currentItem - 1].p
 })
 
@@ -70,8 +66,6 @@ controls.forEach(control => {
             setTimeout(() => {
                 // atualizar o texto de acordo com o elemento atual
                 carouselTitle.innerHTML = newTitle
-                titleUnderline.style.width = `${carouselTitle.offsetWidth}px`
-                carouselTitle.innerHTML = titleUnderline.outerHTML + newTitle
                 caroutelSubtitle.innerHTML = newSubtitle
                 // efeito fade-in
                 textBlock.forEach((element) =>{
